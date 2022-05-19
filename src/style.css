@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+
+
+/* ---NAVBAR--- */
+
+nav {
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px 10px 0 0;
+    margin-top: 20px;
+}
+
+nav img {
+    margin-right: 10px;
+    width: 30px;
+    filter: brightness(0) invert(1);
+}
+
+nav h4 {
+    font-size: 1.2em;
+    color: white;
+}
+
+
+/* ---CARD--- */
+
+.flex-card {
+    display: flex;
+    margin: 20px 40px 10px 40px;
+}
+
+.card {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.card .view {
+    width: 150px;
+    height: 188px;
+    border-radius: 10px;
+    margin-top: 13%;
+}
+
+
+.card-image {
+    margin-right: 19px;
+}
+
+.flex-place {
+    display: flex;
+}
+
+.flex-place p {
+    margin-top:0;
+    margin: auto;
+}
+
+.flex-place img {
+    width: 20px;
+    margin-right: 2px;
+}
+
+.flex-place h5 {
+    margin-right: 15px;
+    font-size: 0.9em;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.flex-place p {
+    font-size: small;
+    color: gray;
+    text-decoration: underline;
+    text-align-last: left;
+}
+
+.flex-place a {
+    color: gray;
+}
+
+
+.flex-card h2 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.data, .desc {
+    font-size: 0.8em;
+}
+
+.data {
+    font-weight: bold;
+}
+
+/* ---FOOTER--- */
+
+footer {
+    width: 50%;
+    margin: auto;
+    background-color: #F55A5A;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}
+
+footer img {
+    margin: 0 10px;
+    width: 20px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+
+/*  ---SCROLLBAR--- */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media screen and (max-width: 600px) {
+    .flex-card {
+        display: block;
+    }
+    .flex-card  {
+        justify-content: center;
+        text-align: center;
+    }
+}
